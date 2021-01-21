@@ -1,0 +1,29 @@
+//Program to find the size of char, int, float and double in system.
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a;
+    char b;
+    float c;
+    double d;
+    cout<<"Size of int is: "<<sizeof(a)<<" bytes"<<endl;
+    cout<<"Size of char is: "<<sizeof(b)<<" bytes"<<endl;
+    cout<<"Size of float is: "<<sizeof(c)<<" bytes"<<endl;
+    cout<<"Size of double is: "<<sizeof(d)<<" bytes"<<endl;
+    return 0;
+}
+
+//To find the product of two numbers entered by the users.
+#include<iostream>
+using namespace std;
+int main()
+{
+    float x,y;
+    cout<<"Enter your first number: ";
+    cin>>x;
+    cout<<"Enter your second number: ";
+    cin>>y;
+    cout<<"The product of two numbers is: "<<x*y;
+  return 0;
+}
